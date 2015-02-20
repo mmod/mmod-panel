@@ -1,3 +1,19 @@
+mmod-panel (0.1.4) UNRELEASED; urgency=low
+
+  * Updated version reference in metadata.json description
+  
+ -- Richard B Winters <rik@mmogp.com> Fri, 20 Feb 2015 04:41 -0500
+
+
+mmod-panel (0.1.4) UNRELEASED; urgency=low
+
+  * Updated version, seeing if incremented version via minor version is allowed on extensinos.gnome.org
+  * Updated metadata.json to point to correct homepage which is now located at github.com
+  * Updated references to issues so they properly reflected those on github.com
+
+ -- Richard B Winters <rik@mmogp.com>  Fri, 20 Feb 2015 04:40:14 -0500
+ 
+
 mmod-panel (0.1.3) UNRELEASED; urgency=low
 
   * Added Git ignore file, added instructions for ignoring Eclipse project files as well as the svn directory

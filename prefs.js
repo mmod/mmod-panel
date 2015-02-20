@@ -24,7 +24,7 @@ const ext = eutils.getCurrentExtension();
 const conv = ext.imports.convenience;
 const lib = ext.imports.lib;
 
-const mver = '0.1.0';
+const mver = '0.1.4';
 
 const schema = "org.gnome.shell.extensions.mmod-panel";
 
