@@ -492,8 +492,8 @@ preferences.prototype =
         (
             {
                 image: this.linkMMODPanelRepoImage,
-                label: " MMOD SVN Repository",
-                uri: "https://steward.mmogp.com/mmod/gnome/mmod-panel",
+                label: " MMOD Git Repository",
+                uri: "https://github.com/mmod/mmod-panel",
                 xalign: 0,
                 hexpand: false
             }
@@ -509,7 +509,7 @@ preferences.prototype =
             {
                 image: this.linkGLHomeImage,
                 label: " gnome-look.org",
-                uri: "https://extensions.gnome.org/extension/XXX/mmod-panel",
+                uri: "https://extensions.gnome.org/extension/898/mmod-panel",
                 xalign: 0,
                 hexpand: false
             }
@@ -525,7 +525,7 @@ preferences.prototype =
             {
                 image: this.linkMMODPanelIssueImage,
                 label: " Report an issue",
-                uri: "http://www.mmogp.com/support/feedback?type=issue&product=mmod-panel",
+                uri: "https://github.com/mmod/mmod-panel/issues",
                 xalign: 0,
                 hexpand: false
             }
