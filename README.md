@@ -63,6 +63,11 @@ German Translation(s) for MMOD-Panel courtesy of:
 * The main VCS in use is now Git, hosted at Github.com, due to popular demand - and for the sake of easing contributions issues are also managed at Github.com.
 
 
+## Development
+
+Feel free to fork the repository and submit pull requests.  Documentation for getting the development environment setup is coming soon.
+
+
 ### Created with:
 
 [Eclipse Luna](https://www.eclipse.org/downloads/)
