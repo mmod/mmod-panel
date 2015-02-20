@@ -61,3 +61,8 @@ German Translation(s) for MMOD-Panel courtesy of:
 * Position modifications were changed to wait for realization (excludes style modification, only position).
 * The shell support for MMOD-Panel has been changed to 3.10+ rather than 3.8+.
 * The main VCS in use is now Git, hosted at Github.com, due to popular demand - and for the sake of easing contributions issues are also managed at Github.com.
+
+
+### Created with:
+
+[Eclipse Luna](https://www.eclipse.org/downloads/)
