@@ -1,0 +1,30 @@
+mmod-panel (0.1.3) UNRELEASED; urgency=low
+
+  * Added Git ignore file, added instructions for ignoring Eclipse project files as well as the svn directory
+  * Updated README to take advantage of GFM
+
+ -- Richard B Winters <rik@mmogp.com>  Fri, 20 Feb 2015 02:46:32 -0500
+
+
+mmod-panel (0.1.2) UNRELEASED; urgency=low
+
+  * Hotfix implemented for the installation error due to a bad method invocation on first-run. (Closes: #2)
+  * Hotfix implemented for the issue with undefined issue on Ubuntu systems. (Closes: #3)
+  * Added GNU project standard files; NEWS, README, INSTALL, CHANGELOG, AUTHORS, and COPYING 
+  * Added German Translations provided courtesy of Jonius Zeidler <jonatan_zeidler@gmx.de>
+
+ -- Richard B Winters <rik@mmogp.com>  Thurs, 22 Jan 2015 03:38:23 -0500
+
+
+mmod-panel (0.1.1) UNRELEASED; urgency=low
+
+  * Hotfix implemented for initialization issues caused shell artifacts being undefined. (Closes: #1)
+
+ -- Richard B Winters <rik@mmogp.com>  Sun, 30 Nov 2014 21:18:40 -0500
+
+
+mmod-panel (0.1.0) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Richard B Winters <rik@mmogp.com>  Sun, 30 Nov 2014 21:16:08 -0500
