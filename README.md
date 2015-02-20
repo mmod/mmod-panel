@@ -43,7 +43,7 @@ I also took inspiration from the following Gnome extensions:
  * Taskbar
  * DashToDock.
 
-For those of you who are wondering, the theme used in the screen shot is the Zukitwo-Dark-Shell Shell Theme; everything else is default Gnome on Debian Jessie. However, the author of the aforementioned shell theme has changed the name for various reasons to Ciliora-Prima-Shell - which can be found here:  http://gnome-look.org/content/show.php?content=165096
+For those of you who are wondering, the theme used in the screen shot (found at [extensions.gnome.org](https://extensions.gnome.org/extension/898/mmod-panel)) is the Zukitwo-Dark-Shell Shell Theme; everything else is default Gnome on Debian Jessie. However, the author of the aforementioned shell theme has changed the name for various reasons to Ciliora-Prima-Shell - which can be found here:  http://gnome-look.org/content/show.php?content=165096
 
 
 ## Contributors/Translators
@@ -55,8 +55,9 @@ German Translation(s) for MMOD-Panel courtesy of:
 
 ## Notes
 
-* I personally use (screenshot on [MMOD-Panel @ gnome.org](https://extensions.gnome.org/extension/898/mmod-panel) the Zukitwo-Dark-Shell ( now termed Ciliora-Prima-Shell ) Gnome Shell theme, which you can find over at gnome-look.org, with this extension and user themes only, on Debian Jessy.
+* I personally use the Zukitwo-Dark-Shell (now termed Ciliora-Prima-Shell) Gnome Shell theme, which you can find over at gnome-look.org, with this extension (and user themes obviously) only, on Debian Jessy.
 * Auto-hide works well, hovering your mouse over an empty portion of the panel will not keep it open; it only stays open when activities, app preferences, favorites, aggregate, and date buttons/icons are hovered, and when the overview, date menu, or aggregate menu are open (note that the app preferences menu does not keep the panel shown either).
 * The link to the website for feedback is currently to the homepage of our web site and there is no respective form or area to leave feedback; it will be up in the very near future.
 * Position modifications were changed to wait for realization (excludes style modification, only position).
 * The shell support for MMOD-Panel has been changed to 3.10+ rather than 3.8+.
+* The main VCS in use is now Git, hosted at Github.com, due to popular demand - and for the sake of easing contributions issues are also managed at Github.com.
