@@ -1,0 +1,7 @@
+NEWS - Most recent first
+
+* January 22, 2015
+
+  This project has been brought up-to-date with some GNU project standards. As a result you will find numerous files have been added to the topmost directory of the source tree; including this file (NEWS) which provides updates regarding the latest end-user-visible changes to this software, the README file which provides additional information to both user and contributor, a ChangeLog file listing developmental updates, a license file named COPYING, an AUTHORS file listing contributors, and an INSTALL documentation file.
+
+  -- Richard B Winters <rik@mmogp.com>

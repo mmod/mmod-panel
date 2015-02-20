@@ -1,0 +1,15 @@
+# MMOD-Panel
+
+
+##Getting Started
+
+Upon installation you will find yourself greeted by the Gnome Extension Preferences Window.  You may browse through the settings and make changes as you like.
+
+
+##Notes
+
+* I personally use the Zukitwo-Dark-Shell ( now termed Ciliora-Prima-Shell ) Gnome Shell theme, which you can find over at gnome-look.org, with this extension and user themes only, on Debian Jessy.
+* Auto-hide works well, hovering your mouse over an empty portion of the panel will not keep it open; it only stays open when activities, app preferences, favorites, aggregate, and date buttons/icons are hovered, and when the overview, date menu, or aggregate menu are open (note that the app preferences menu does not keep the panel shown either).
+* The link to the website for feedback is currently to the homepage of our web site and there is no respective form or area to leave feedback; it will be up in the very near future.
+* Position modifications were changed to wait for realization (excludes style modification, only position).
+* The shell support for MMOD-Panel has been changed to 3.10+ rather than 3.8+.

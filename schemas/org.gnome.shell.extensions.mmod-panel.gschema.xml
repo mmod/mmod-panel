@@ -1,0 +1,115 @@
+<schemalist gettext-domain="mmod-panel">
+
+    <enum id="org.gnome.shell.extensions.mmod-panel.panel-positions">
+        <value value="0" nick="Bottom"/>
+        <value value="1" nick="Top"/>
+    </enum>
+    <enum id="org.gnome.shell.extensions.mmod-panel.button-icons">
+        <value value="0" nick="M4Iken"/>
+        <value value="1" nick="Apps"/>
+        <value value="2" nick="Debian"/>
+        <value value="3" nick="Fedora"/>
+        <value value="4" nick="Custom"/>
+    </enum>
+    <enum id="org.gnome.shell.extensions.mmod-panel.comfort-levels">
+        <value value="0" nick="Compact" />
+        <value value="1" nick="Cozy" />
+        <value value="2" nick="Comfortable" />
+    </enum>
+
+    <schema id="org.gnome.shell.extensions.mmod-panel" path="/org/gnome/shell/extensions/mmod-panel/">
+
+        <key name="mmod-panel-enabled" type="b">
+            <default>true</default>
+            <summary>Display the MMOD panel</summary>
+            <description>Set to true by default, disable this item to remove the modifications and disable the rendering of MMOD Panel altogether.</description>
+        </key>
+        <key name="comfort-level"  enum="org.gnome.shell.extensions.mmod-panel.comfort-levels">
+            <default>'Cozy'</default>
+            <summary>Comfort</summary>
+            <description>Set to Compact for a smaller panel, or to Comfortable for a larger panel.</description>
+        </key>
+        <key name="panel-position" enum="org.gnome.shell.extensions.mmod-panel.panel-positions">
+          <default>'Bottom'</default>
+          <summary>Panel position</summary>
+          <description>Set to bottom in order to relocate the topbar to the bottom of the screen.</description>
+        </key>
+        <key name="show-in-tray-menu" type="b">
+            <default>true</default>
+            <summary>MMOD-Panel menu</summary>
+            <description>Set to true to display the MMOD-Panel menu in the user (3.8) or aggregate (3.10+) menu.</description>
+        </key>
+        <key name="panel-button-enabled" type="b">
+            <default>true</default>
+            <summary>Panel button</summary>
+            <description>Set to true to replace the activities link with a button using a select-able icon (below) or an icon of your choosing.</description>
+        </key>
+        <key name="panel-button-icon" enum="org.gnome.shell.extensions.mmod-panel.button-icons">
+            <default>'M4Iken'</default>
+            <summary>Panel button icon</summary>
+            <description>Set the icon to use for the panel button.</description>
+        </key>
+        <key name="panel-button-icon-path" type="s">
+            <default>'/home/user/path/to/custom-icon'</default>
+            <summary>Custom panel button icon path</summary>
+            <description>The full path to a custom icon to use as the panel button. Must set panel button icon above to custom.</description>
+        </key>
+        <key name="display-favorites-enabled" type="b">
+            <default>true</default>
+            <summary>Display favorites</summary>
+            <description>Set to true to display the favorites on the MMOD panel</description>
+        </key>
+        <key name="favorites-before-preferences" type="b">
+            <default>true</default>
+            <summary>Display favorites before preferences</summary>
+            <description>Set to true in order to move the application preferences link to the right of the favorites dislay on the MMOD-Panel.</description>
+        </key>
+        <key name="show-running-apps" type="b">
+            <default>true</default>
+            <summary>Display running apps</summary>
+            <description>Set to true to display any running apps along with the list of favorites on the MMOD-Panel.</description>
+        </key>
+        <key name="date-in-sys-tray" type="b">
+            <default>false</default>
+            <summary>Move date to the right</summary>
+            <description>Set to true to display the date and time to the right of the user/aggregate menu, or system tray area.</description>
+        </key>
+        <key name="autohide-panel" type="b">
+            <default>false</default>
+            <summary>Auto-hide panel</summary>
+            <description>Set to enable or disable auto-hiding of the MMOD Panel.</description>
+        </key>
+        <key name="autohide-pressure-threshold" type="d">
+            <default>50</default>
+            <summary>Pressure threshold</summary>
+            <description>Sets how much pressure is required in order to show the MMOD Panel when auto-hidden.</description>
+        </key>
+        <key name="autohide-delay" type="d">
+            <default>3</default>
+            <summary>Auto-hide delay</summary>
+            <description>Sets how much time should pass before checking whether the MMOD Panel should be re-hidden.</description>
+        </key>
+        <key name="autohide-animation-time" type="d">
+            <default>1</default>
+            <summary>Auto-hide animation time</summary>
+            <description>Sets how much time it should take to animate showing or hiding of the MMOD Panel.</description>
+        </key>
+        <key name="autohide-animation-delay" type="d">
+            <default>0</default>
+            <summary>Auto-hide animation delay</summary>
+            <description>Sets how much time should pass before animating the showing or hiding of the MMOD Panel.</description>
+        </key>
+        <key name="hot-corner-enabled" type="b">
+            <default>true</default>
+            <summary>Enable hot corners</summary>
+            <description>Set to false in order to disable the hot corner which triggers the overview.</description>
+        </key>
+        <key name="first-run" type="b">
+            <default>true</default>
+            <summary>First run</summary>
+            <description>Is automatically set to false after the extension is run for the first time, and is used as a flag by the extension in order to automatically show the preferences window the first time the extension is enabled.</description>
+        </key>
+    
+    </schema>
+  
+</schemalist>
