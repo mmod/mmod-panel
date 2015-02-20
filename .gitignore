@@ -3,5 +3,4 @@
 
 # Eclipse project specific files and directories
 .settings
-.settings/.jsdtscope
 .project
