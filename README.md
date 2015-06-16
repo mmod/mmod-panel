@@ -1,4 +1,4 @@
-# MMOD-Panel
+# MMOD-Panel [![Donate via PayPal.com](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H6QJC5JS7PEAC)
 
 MMOD Panel is an upgrade to the Topbar in Gnome3, creating a customizable panel and providing options for fine-tuning your Desktop Experience. 
 
@@ -8,6 +8,9 @@ Supported Gnome-shell versions:
  * 3.12
  * 3.12.2
  * 3.14
+ * 3.14.4
+ * 3.16
+ * 3.16.2
  
 Check out MMOD-Panel at [extensions.gnome.org](https://extensions.gnome.org/extension/898/mmod-panel).
 
@@ -66,6 +69,13 @@ German Translation(s) for MMOD-Panel courtesy of:
 ## Development
 
 Feel free to fork the repository and submit pull requests.  Documentation for getting the development environment setup is coming soon.
+
+
+## Donations
+
+If you cannot contribute time or energy to neither the code base, documentation, nor community support; please consider making a monetary contribution which is extremely useful for maintaining the Massively Modified Online Gathering Place network, and all of its Free & Open Source Software.
+
+[![Donate via PayPal.com](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H6QJC5JS7PEAC)
 
 
 ### Created with:

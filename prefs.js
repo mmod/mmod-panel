@@ -493,7 +493,7 @@ preferences.prototype =
             {
                 image: this.linkMMODPanelRepoImage,
                 label: " MMOD Git Repository",
-                uri: "https://github.com/mmod/mmod-panel",
+                uri: "https://code.mmogp.com/mmod/mmod-panel",
                 xalign: 0,
                 hexpand: false
             }
@@ -525,7 +525,7 @@ preferences.prototype =
             {
                 image: this.linkMMODPanelIssueImage,
                 label: " Report an issue",
-                uri: "https://github.com/mmod/mmod-panel/issues",
+                uri: "https://code.mmogp.com/mmod/mmod-panel/issues",
                 xalign: 0,
                 hexpand: false
             }
@@ -541,7 +541,7 @@ preferences.prototype =
             {
                 image: this.linkDonateImage,
                 //label: " Donate",
-                uri: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UH4NA4WM26P3W",
+                uri: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H6QJC5JS7PEAC",
                 xalign: 0,
                 hexpand: false
             }
