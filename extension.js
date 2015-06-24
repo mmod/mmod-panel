@@ -1,6 +1,6 @@
 /**
  * package: mmod-panel
- * version: 1.0.0-5
+ * version: 1.1.0-6
  * author:  Richard B. Winters <a href='mailto:rik@mmogp.com'>rik AT mmogp DOT com</a>
  * copyright: 2011-2015 Massively Modified, Inc.
  * license: Apache, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
