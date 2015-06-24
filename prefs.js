@@ -638,7 +638,7 @@ preferences.prototype =
 
             default:
             {
-                iconSize = 36;
+                iconSize = 32;
             }break;
         }
 
