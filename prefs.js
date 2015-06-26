@@ -36,7 +36,7 @@ const EDGE_RIGHT    = 3;
 
 //const RESETCOLOR = 'rgba(0,0,0,0)';
 //const BLACKCOLOR = 'rgba(0,0,0,1)';
-const ICON_LOGO = ext.path + '/res/img/mico/mmod-logo.svg';
+const ICON_LOGO = ext.path + '/res/img/mico/mmod-plain-96-20.png';
 const ICON_M4IKEN = ext.path + '/res/img/mico/mstar/mmod-logo-fin-24.png';
 const ICON_M4IKEN_RED = ext.path + '/res/img/mico/mstar/mmod-logo-red-24.png';
 const ICON_DONATE = ext.path + '/res/img/ppico/donate/btn_donate_LG.gif';
