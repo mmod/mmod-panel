@@ -1,11 +1,22 @@
-mmod-panel (0.1.4) UNRELEASED; urgency=low
+mmod-panel (1.1.0-6) stable; urgency=high
 
-  * Updated version reference in metadata.json description
+  * Updated version reference in extension metadata
+  * Added proper support for Gnome-Shell 3.16 (favorites display fixed)
+
+ -- Richard B Winters <rik@mmogp.com> Wed, 24 Jun 2015 03:07 -0500
+
+
+mmod-panel (1.0.0-5) stable; urgency=medium
+
+  * Updated version reference in extension metadata
+  * Added link to our source repository in the extension description
+  * Updated references to issues and source repository locations in preferences window
+  * Fixed issue #4 (https://code.mmogp.com/mmod/mmod-panel/issues/4)
   
  -- Richard B Winters <rik@mmogp.com> Fri, 20 Feb 2015 04:41 -0500
 
 
-mmod-panel (0.1.4) UNRELEASED; urgency=low
+mmod-panel (0.1.4) stable; urgency=low
 
   * Updated version, seeing if incremented version via minor version is allowed on extensinos.gnome.org
   * Updated metadata.json to point to correct homepage which is now located at github.com
@@ -14,7 +25,7 @@ mmod-panel (0.1.4) UNRELEASED; urgency=low
  -- Richard B Winters <rik@mmogp.com>  Fri, 20 Feb 2015 04:40:14 -0500
  
 
-mmod-panel (0.1.3) UNRELEASED; urgency=low
+mmod-panel (0.1.3) stable; urgency=low
 
   * Added Git ignore file, added instructions for ignoring Eclipse project files as well as the svn directory
   * Updated README to take advantage of GFM
@@ -22,7 +33,7 @@ mmod-panel (0.1.3) UNRELEASED; urgency=low
  -- Richard B Winters <rik@mmogp.com>  Fri, 20 Feb 2015 02:46:32 -0500
 
 
-mmod-panel (0.1.2) UNRELEASED; urgency=low
+mmod-panel (0.1.2) stable; urgency=medium
 
   * Hotfix implemented for the installation error due to a bad method invocation on first-run. (Closes: #3)
   * Hotfix implemented for the issue with undefined issue on Ubuntu systems. (Closes: #4)
@@ -32,14 +43,14 @@ mmod-panel (0.1.2) UNRELEASED; urgency=low
  -- Richard B Winters <rik@mmogp.com>  Thurs, 22 Jan 2015 03:38:23 -0500
 
 
-mmod-panel (0.1.1) UNRELEASED; urgency=low
+mmod-panel (0.1.1) stable; urgency=medium
 
   * Hotfix implemented for initialization issues caused shell artifacts being undefined. (Closes: #2)
 
  -- Richard B Winters <rik@mmogp.com>  Sun, 30 Nov 2014 21:18:40 -0500
 
 
-mmod-panel (0.1.0) UNRELEASED; urgency=low
+mmod-panel (0.1.0) stable; urgency=low
 
   * Initial release.
 

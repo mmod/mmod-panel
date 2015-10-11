@@ -1,10 +1,17 @@
 NEWS - Most recent first
 
 
+* June 15, 2015
+
+  This project's VCS hosting has been moved to our proprietary GitLab instance at https://code.mmogp.com/mmod/mmod-panel.
+
+    -- Richard B Winters <rik@mmogp.com>
+
+
 * February 20, 2015
 
   This project's VCS has been changed to Git, and is now hosted on Github.com due to popular demand - and for the sake of easing contributions to the project.
-  
+
   -- Richard B Winters <rik@mmogp.com>
 
 

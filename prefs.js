@@ -1,8 +1,8 @@
 /**
  * package: mmod-panel
  * sub-package: preferences
- * author:  Richard B. Winters <a href='mailto:rik@mmogp.com'>Rik At MMOGP</a>
- * copyright: 2011-2014 Massively Modified, Inc.
+ * author:  Richard B. Winters <a href='mailto:rik@mmogp.com'>rik AT mmogp DOT com</a>
+ * copyright: 2011-2015 Massively Modified, Inc.
  * license: Apache, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>
  */
 
@@ -24,7 +24,7 @@ const ext = eutils.getCurrentExtension();
 const conv = ext.imports.convenience;
 const lib = ext.imports.lib;
 
-const mver = '0.1.4';
+const mver = '1.1.0-6';
 
 const schema = "org.gnome.shell.extensions.mmod-panel";
 
@@ -36,7 +36,7 @@ const EDGE_RIGHT    = 3;
 
 //const RESETCOLOR = 'rgba(0,0,0,0)';
 //const BLACKCOLOR = 'rgba(0,0,0,1)';
-const ICON_LOGO = ext.path + '/res/img/mico/mmod-logo.svg';
+const ICON_LOGO = ext.path + '/res/img/mico/mmod-plain-96-20.png';
 const ICON_M4IKEN = ext.path + '/res/img/mico/mstar/mmod-logo-fin-24.png';
 const ICON_M4IKEN_RED = ext.path + '/res/img/mico/mstar/mmod-logo-red-24.png';
 const ICON_DONATE = ext.path + '/res/img/ppico/donate/btn_donate_LG.gif';
@@ -493,7 +493,7 @@ preferences.prototype =
             {
                 image: this.linkMMODPanelRepoImage,
                 label: " MMOD Git Repository",
-                uri: "https://github.com/mmod/mmod-panel",
+                uri: "https://code.mmogp.com/mmod/mmod-panel",
                 xalign: 0,
                 hexpand: false
             }
@@ -525,7 +525,7 @@ preferences.prototype =
             {
                 image: this.linkMMODPanelIssueImage,
                 label: " Report an issue",
-                uri: "https://github.com/mmod/mmod-panel/issues",
+                uri: "https://code.mmogp.com/mmod/mmod-panel/issues",
                 xalign: 0,
                 hexpand: false
             }
@@ -541,7 +541,7 @@ preferences.prototype =
             {
                 image: this.linkDonateImage,
                 //label: " Donate",
-                uri: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UH4NA4WM26P3W",
+                uri: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H6QJC5JS7PEAC",
                 xalign: 0,
                 hexpand: false
             }
@@ -638,7 +638,7 @@ preferences.prototype =
 
             default:
             {
-                iconSize = 36;
+                iconSize = 32;
             }break;
         }
 
