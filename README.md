@@ -11,6 +11,7 @@ Supported Gnome-shell versions:
  * 3.14.4
  * 3.16
  * 3.16.2
+ * 3.18
  
 Check out MMOD-Panel at [extensions.gnome.org](https://extensions.gnome.org/extension/898/mmod-panel).
 
@@ -63,7 +64,7 @@ German Translation(s) for MMOD-Panel courtesy of:
 * The link to the website for feedback is currently to the homepage of our web site and there is no respective form or area to leave feedback; it will be up in the very near future.
 * Position modifications were changed to wait for realization (excludes style modification, only position).
 * The shell support for MMOD-Panel has been changed to 3.10+ rather than 3.8+.
-* The main VCS in use is now Git, hosted at Github.com, due to popular demand - and for the sake of easing contributions issues are also managed at Github.com.
+* The main VCS in use is now our Gitlab instance over at code.mmogp.com.  However, we're still mirroring to Github.com, due to popular demand.
 
 
 ## Development
