@@ -1,4 +1,12 @@
-mmod-panel (1.1.0-6) stable; urgency=high
+mmod-panel (1.1.1-7) stable; urgency=high
+
+  * Updated version reference in extension metadata
+  * Added proper support for Gnome-Shell 3.18
+
+ -- Richard B Winters <rik@mmogp.com> Wed, 14 Oct 2015 23:21 -0500
+ 
+ 
+ mmod-panel (1.1.0-6) stable; urgency=high
 
   * Updated version reference in extension metadata
   * Added proper support for Gnome-Shell 3.16 (favorites display fixed)
