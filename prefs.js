@@ -45,6 +45,10 @@ const ICON_EMAIL = ext.path + '/res/img/generic/email/email-24.png';
 const ICON_GNOME = ext.path + '/res/img/gnico/gnome/gnome-24.png';
 const ICON_GLOOK = ext.path + '/res/img/gnico/gnome/gnome-24.png';
 
+// size
+const WIDGET_DEFAULT_WIDTH = 575;
+const WIDGET_DEFAULT_HEIGHT = 500;
+
 
 /**
  * Init
@@ -598,8 +602,8 @@ preferences.prototype =
         let labelSpaceAbout = new gtk.Label( { label: "3/3", xalign: 1, hexpand: false } );
         this.gridAbout.attach( labelSpaceAbout, 3, 8, 1, 1 );
 
-
-
+        // set the minimum size of the prefs widget
+        this.notebook.set_size_request(WIDGET_DEFAULT_WIDTH, WIDGET_DEFAULT_HEIGHT);
 
         this.notebook.show_all();
         return this.notebook;
